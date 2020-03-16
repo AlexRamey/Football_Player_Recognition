@@ -3,17 +3,17 @@
 This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes.
 
 ## Dataset 
-1. Capture frames from two Alabama football games. (One with home uniforms, the other with away uniforms)
+1. Capture frames from two Alabama football games (1080 x 720 resolution), one with home uniforms and the other with away uniforms.
 
 1. Run a [pre-trained Mask R-CNN](https://github.com/matterport/Mask_RCNN) to extract person bounding boxes from the frames.
 
-1. Pad the bounding boxes with 0s (blackness) to create square images then re-scale to size 512x512. Discard non-Alabama players.
+1. Pad the bounding boxes with 0s (blackness) to create square images then re-scale to size 256 x 256. Discard non-Alabama players.
 
-1. Label the digits with [VGG Image Annotator (VIA) tool](http://www.robots.ox.ac.uk/~vgg/software/via/)
+1. Label the digits with [VGG Image Annotator (VIA) tool](http://www.robots.ox.ac.uk/~vgg/software/via/).
 
-1. Trim the dataset to create an equal number of home and away colored digits
+1. Trim the dataset to create an equal number of home and away colored digits.
 
-1. Divide the dataset using a 70/30 split into `football_player_train` and `football_player_test`
+1. Divide the dataset using a 70/30 split into `football_player_train` and `football_player_test`.
 
 ## Training
 
@@ -21,11 +21,11 @@ This project will identify the jersey numbers of American football players in br
 
 1. Evaluate performance on `football_player_test` for the following three scenarios:
     
-    1. Fine-tuning with [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/) dataset.
+    1. Fine-tuning with [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/) dataset
     1. Fine-tuning with `football_player_train`
     1. Fine-tuning with `SVHN + football_player_train` 
 
-3. The best performing model is hereby referred to as `jersey_number_detector`
+3. The best performing model is hereby referred to as `jersey_number_detector`.
 
 ## Inference
 
@@ -41,7 +41,7 @@ while (frame = video.getFrame()):
 
 ## Post-processing
 
-1. Filter out away team jersey numbers based on color, which will vary per-game
+1. Filter out away team jersey numbers based on color, which will vary per game
 1. Supplement the jersey numbers with roster information (player names)
 1. Filter out sideline player noise
 
