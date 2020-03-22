@@ -5,6 +5,8 @@ This project will identify the jersey numbers of American football players in br
 ## Dataset 
 1. Capture frames from two Alabama football games (1080 x 720 resolution), one with home uniforms and the other with away uniforms.
 
+1. Do a pass over the frames, removing ones that do not contain at least one Alabama player with a completely visible jersey number.
+
 1. Run a [pre-trained Mask R-CNN](https://github.com/matterport/Mask_RCNN) to extract person bounding boxes from the frames.
 
 1. Pad the bounding boxes with 0s (blackness) to create square images then re-scale to size 256 x 256. Discard non-Alabama players.
