@@ -10,4 +10,4 @@ with open('util/player_numbers.json') as f:
 file_names = list(map(lambda val: val["filename"], data["_via_img_metadata"].values()))
 
 for fname in file_names:
-    bucket.upload_file(os.path.join("data/person_proposals", fname), fname)
+    bucket.upload_file(os.path.join("data/person_proposals", fname), fname, ExtraArgs={'ACL': 'public-read'})
