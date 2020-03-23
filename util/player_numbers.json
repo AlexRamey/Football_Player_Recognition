@@ -29048,7 +29048,7 @@
                         "height": 43
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
                     }
                 }
             ],
@@ -29061,13 +29061,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 99,
-                        "y": 45,
+                        "x": 104,
+                        "y": 48,
                         "width": 49,
-                        "height": 61
+                        "height": 53
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "3"
                     }
                 }
             ],
@@ -29081,12 +29081,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 88,
-                        "y": 49,
-                        "width": 61,
-                        "height": 43
+                        "y": 58,
+                        "width": 26,
+                        "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 48,
+                        "width": 25,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -29101,11 +29113,23 @@
                         "name": "rect",
                         "x": 89,
                         "y": 48,
-                        "width": 55,
-                        "height": 36
+                        "width": 27,
+                        "height": 39
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 44,
+                        "width": 26,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -29211,13 +29235,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 71,
+                        "x": 79,
                         "y": 0,
-                        "width": 67,
+                        "width": 31,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 108,
+                        "y": 0,
+                        "width": 27,
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "3"
                     }
                 }
             ],
@@ -29292,13 +29328,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 93,
-                        "y": 36,
-                        "width": 53,
-                        "height": 46
+                        "x": 94,
+                        "y": 42,
+                        "width": 27,
+                        "height": 37
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 118,
+                        "y": 36,
+                        "width": 24,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -29410,7 +29458,7 @@
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "7"
                     }
                 }
             ],
@@ -29485,10 +29533,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 98,
+                        "x": 102,
                         "y": 50,
-                        "width": 40,
-                        "height": 47
+                        "width": 36,
+                        "height": 44
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -29497,10 +29545,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 119,
-                        "y": 38,
-                        "width": 38,
-                        "height": 52
+                        "x": 126,
+                        "y": 43,
+                        "width": 25,
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -29534,7 +29582,7 @@
                         "height": 34
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "9"
                     }
                 },
                 {
@@ -29696,9 +29744,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 54,
-                        "y": 85,
+                        "y": 91,
                         "width": 36,
-                        "height": 77
+                        "height": 71
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -29944,9 +29992,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 77,
-                        "y": 89,
+                        "y": 96,
                         "width": 27,
-                        "height": 81
+                        "height": 74
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -29957,7 +30005,7 @@
                         "name": "rect",
                         "x": 103,
                         "y": 97,
-                        "width": 53,
+                        "width": 46,
                         "height": 72
                     },
                     "region_attributes": {
@@ -30069,7 +30117,7 @@
                         "name": "rect",
                         "x": 125,
                         "y": 46,
-                        "width": 19,
+                        "width": 17,
                         "height": 40
                     },
                     "region_attributes": {
@@ -30079,10 +30127,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 144,
-                        "y": 48,
-                        "width": 10,
-                        "height": 36
+                        "x": 138,
+                        "y": 42,
+                        "width": 18,
+                        "height": 42
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -30101,7 +30149,7 @@
                         "x": 104,
                         "y": 92,
                         "width": 27,
-                        "height": 30
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -30222,13 +30270,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
-                        "y": 74,
-                        "width": 46,
+                        "x": 111,
+                        "y": 72,
+                        "width": 36,
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
                     }
                 }
             ],
@@ -30242,7 +30290,7 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 107,
-                        "y": 72,
+                        "y": 71,
                         "width": 34,
                         "height": 44
                     },
@@ -30261,12 +30309,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 84,
-                        "y": 68,
-                        "width": 70,
-                        "height": 51
+                        "y": 72,
+                        "width": 36,
+                        "height": 46
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 118,
+                        "y": 69,
+                        "width": 27,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -30330,12 +30390,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 85,
-                        "y": 73,
-                        "width": 60,
-                        "height": 49
+                        "y": 78,
+                        "width": 31,
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 73,
+                        "width": 27,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -30441,13 +30513,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 68,
-                        "y": 0,
-                        "width": 120,
-                        "height": 254
+                        "x": 114,
+                        "y": 63,
+                        "width": 29,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 141,
+                        "y": 55,
+                        "width": 20,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -30462,8 +30546,20 @@
                         "name": "rect",
                         "x": 94,
                         "y": 82,
-                        "width": 51,
+                        "width": 24,
                         "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 116,
+                        "y": 82,
+                        "width": 33,
+                        "height": 45
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -30541,13 +30637,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 105,
-                        "y": 48,
-                        "width": 59,
-                        "height": 46
+                        "x": 106,
+                        "y": 49,
+                        "width": 25,
+                        "height": 43
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 51,
+                        "width": 28,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -30591,13 +30699,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 85,
-                        "y": 46,
-                        "width": 69,
-                        "height": 53
+                        "x": 92,
+                        "y": 54,
+                        "width": 29,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 121,
+                        "y": 47,
+                        "width": 27,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -30611,9 +30731,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 97,
-                        "y": 62,
+                        "y": 59,
                         "width": 28,
-                        "height": 45
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -30623,9 +30743,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 120,
-                        "y": 59,
+                        "y": 56,
                         "width": 29,
-                        "height": 45
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "6"
@@ -30802,12 +30922,48 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 95,
-                        "y": 53,
-                        "width": 68,
-                        "height": 57
+                        "y": 58,
+                        "width": 31,
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 122,
+                        "y": 60,
+                        "width": 32,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 64,
+                        "y": 0,
+                        "width": 20,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 81,
+                        "y": 0,
+                        "width": 30,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -30821,12 +30977,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 114,
-                        "y": 48,
+                        "y": 52,
                         "width": 34,
-                        "height": 45
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
                     }
                 }
             ],
@@ -30963,10 +31119,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 134,
-                        "y": 68,
-                        "width": 12,
-                        "height": 35
+                        "x": 130,
+                        "y": 67,
+                        "width": 23,
+                        "height": 38
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -31016,7 +31172,7 @@
                         "x": 79,
                         "y": 81,
                         "width": 28,
-                        "height": 43
+                        "height": 39
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -31028,7 +31184,7 @@
                         "x": 108,
                         "y": 81,
                         "width": 26,
-                        "height": 44
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "6"
@@ -31112,7 +31268,7 @@
                         "height": 32
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -31220,11 +31376,23 @@
                         "name": "rect",
                         "x": 127,
                         "y": 57,
-                        "width": 25,
+                        "width": 11,
                         "height": 26
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 57,
+                        "width": 15,
+                        "height": 27
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -31461,8 +31629,8 @@
                         "name": "rect",
                         "x": 129,
                         "y": 135,
-                        "width": 5,
-                        "height": 15
+                        "width": 10,
+                        "height": 24
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -31490,18 +31658,6 @@
                     },
                     "region_attributes": {
                         "digit": "4"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 130,
-                        "y": 136,
-                        "width": 7,
-                        "height": 23
-                    },
-                    "region_attributes": {
-                        "digit": "0"
                     }
                 }
             ],
@@ -31607,10 +31763,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 105,
-                        "y": 29,
-                        "width": 28,
-                        "height": 48
+                        "x": 112,
+                        "y": 31,
+                        "width": 21,
+                        "height": 43
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -31620,12 +31776,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 138,
-                        "y": 31,
+                        "y": 36,
                         "width": 28,
-                        "height": 48
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "6"
                     }
                 }
             ],
@@ -31689,6 +31845,18 @@
                     "region_attributes": {
                         "digit": "3"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 83,
+                        "y": 17,
+                        "width": 15,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "digit": "6"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -31701,12 +31869,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 119,
-                        "y": 33,
-                        "width": 41,
-                        "height": 41
+                        "y": 40,
+                        "width": 27,
+                        "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 140,
+                        "y": 35,
+                        "width": 22,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -31752,11 +31932,23 @@
                         "name": "rect",
                         "x": 108,
                         "y": 64,
-                        "width": 39,
-                        "height": 35
+                        "width": 17,
+                        "height": 31
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 125,
+                        "y": 62,
+                        "width": 27,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -31769,13 +31961,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 78,
-                        "y": 60,
-                        "width": 76,
-                        "height": 64
+                        "x": 88,
+                        "y": 71,
+                        "width": 32,
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 117,
+                        "y": 66,
+                        "width": 31,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -31821,11 +32025,23 @@
                         "name": "rect",
                         "x": 109,
                         "y": 70,
-                        "width": 38,
+                        "width": 15,
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 77,
+                        "width": 23,
+                        "height": 31
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -31882,7 +32098,7 @@
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
                     }
                 }
             ],
@@ -32107,13 +32323,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 67,
-                        "y": 32,
-                        "width": 73,
-                        "height": 51
+                        "x": 73,
+                        "y": 40,
+                        "width": 35,
+                        "height": 39
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 107,
+                        "y": 37,
+                        "width": 27,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -32189,12 +32417,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 98,
-                        "y": 33,
+                        "y": 41,
                         "width": 47,
-                        "height": 56
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "3"
                     }
                 }
             ],
@@ -32226,13 +32454,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 100,
-                        "y": 50,
-                        "width": 64,
-                        "height": 61
+                        "x": 112,
+                        "y": 54,
+                        "width": 26,
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 51,
+                        "width": 23,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -32346,9 +32586,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 105,
-                        "y": 50,
+                        "y": 54,
                         "width": 24,
-                        "height": 49
+                        "height": 45
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -32376,10 +32616,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 86,
-                        "y": 54,
-                        "width": 65,
-                        "height": 64
+                        "x": 100,
+                        "y": 61,
+                        "width": 37,
+                        "height": 48
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -32395,13 +32635,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 105,
-                        "y": 45,
-                        "width": 66,
-                        "height": 64
+                        "x": 110,
+                        "y": 51,
+                        "width": 25,
+                        "height": 48
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 134,
+                        "y": 51,
+                        "width": 33,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -32620,9 +32872,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 96,
-                        "y": 59,
+                        "y": 62,
                         "width": 28,
-                        "height": 51
+                        "height": 46
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -32650,13 +32902,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 120,
-                        "y": 45,
-                        "width": 49,
-                        "height": 51
+                        "x": 125,
+                        "y": 49,
+                        "width": 16,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 54,
+                        "width": 27,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -32670,9 +32934,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 115,
-                        "y": 78,
+                        "y": 76,
                         "width": 29,
-                        "height": 35
+                        "height": 37
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -32750,10 +33014,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 107,
-                        "y": 65,
+                        "x": 110,
+                        "y": 64,
                         "width": 27,
-                        "height": 35
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -32762,10 +33026,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 144,
+                        "x": 140,
                         "y": 61,
-                        "width": 18,
-                        "height": 37
+                        "width": 22,
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -32795,7 +33059,7 @@
                         "name": "rect",
                         "x": 119,
                         "y": 74,
-                        "width": 39,
+                        "width": 33,
                         "height": 49
                     },
                     "region_attributes": {
@@ -33124,7 +33388,7 @@
                         "name": "rect",
                         "x": 124,
                         "y": 58,
-                        "width": 36,
+                        "width": 26,
                         "height": 44
                     },
                     "region_attributes": {
@@ -33223,7 +33487,7 @@
                         "height": 23
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
                     }
                 },
                 {
@@ -33235,7 +33499,7 @@
                         "height": 19
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
                     }
                 }
             ],
@@ -33254,7 +33518,7 @@
                         "height": 55
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "3"
                     }
                 }
             ],
@@ -33361,9 +33625,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 108,
-                        "y": 48,
+                        "y": 51,
                         "width": 28,
-                        "height": 47
+                        "height": 43
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -33453,13 +33717,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 112,
-                        "y": 54,
-                        "width": 59,
-                        "height": 54
+                        "x": 117,
+                        "y": 61,
+                        "width": 26,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 136,
+                        "y": 63,
+                        "width": 29,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -33468,7 +33744,68 @@
         "215.jpg_bb3.jpg10684": {
             "filename": "215.jpg_bb3.jpg",
             "size": 10684,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 60,
+                        "y": 210,
+                        "width": 14,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 73,
+                        "y": 213,
+                        "width": 16,
+                        "height": 21
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 55,
+                        "width": 18,
+                        "height": 22
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 141,
+                        "y": 59,
+                        "width": 16,
+                        "height": 20
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 118,
+                        "y": 31,
+                        "width": 14,
+                        "height": 26
+                    },
+                    "region_attributes": {
+                        "digit": "8"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "216.jpg_bb4.jpg9020": {
@@ -33529,6 +33866,30 @@
                     "region_attributes": {
                         "digit": "9"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 147,
+                        "y": 33,
+                        "width": 15,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 159,
+                        "y": 34,
+                        "width": 17,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -33541,9 +33902,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 96,
-                        "y": 71,
+                        "y": 74,
                         "width": 24,
-                        "height": 41
+                        "height": 38
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -33626,10 +33987,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 138,
-                        "y": 37,
-                        "width": 28,
-                        "height": 35
+                        "x": 147,
+                        "y": 45,
+                        "width": 19,
+                        "height": 23
                     },
                     "region_attributes": {
                         "digit": "5"
@@ -33660,7 +34021,7 @@
                         "x": 87,
                         "y": 46,
                         "width": 24,
-                        "height": 51
+                        "height": 46
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -33670,9 +34031,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 108,
-                        "y": 49,
-                        "width": 37,
-                        "height": 47
+                        "y": 54,
+                        "width": 33,
+                        "height": 42
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -33688,13 +34049,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 104,
-                        "y": 44,
-                        "width": 54,
-                        "height": 46
+                        "x": 110,
+                        "y": 50,
+                        "width": 25,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 129,
+                        "y": 45,
+                        "width": 28,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -33769,13 +34142,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
-                        "y": 41,
-                        "width": 58,
-                        "height": 51
+                        "x": 113,
+                        "y": 45,
+                        "width": 22,
+                        "height": 43
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 134,
+                        "y": 42,
+                        "width": 26,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -33788,13 +34173,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 64,
-                        "y": 51,
-                        "width": 74,
-                        "height": 55
+                        "x": 72,
+                        "y": 58,
+                        "width": 37,
+                        "height": 48
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 100,
+                        "y": 43,
+                        "width": 37,
+                        "height": 51
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -33808,9 +34205,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 125,
-                        "y": 35,
-                        "width": 42,
-                        "height": 43
+                        "y": 37,
+                        "width": 39,
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -33819,9 +34216,9 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
+                        "x": 99,
                         "y": 45,
-                        "width": 43,
+                        "width": 36,
                         "height": 44
                     },
                     "region_attributes": {
@@ -33857,9 +34254,9 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 120,
-                        "y": 82,
-                        "width": 43,
+                        "x": 134,
+                        "y": 79,
+                        "width": 29,
                         "height": 39
                     },
                     "region_attributes": {
@@ -33876,10 +34273,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 128,
-                        "y": 57,
-                        "width": 40,
-                        "height": 51
+                        "x": 134,
+                        "y": 60,
+                        "width": 31,
+                        "height": 48
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -33897,7 +34294,7 @@
                         "name": "rect",
                         "x": 80,
                         "y": 67,
-                        "width": 23,
+                        "width": 19,
                         "height": 34
                     },
                     "region_attributes": {
@@ -33907,9 +34304,9 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 94,
+                        "x": 99,
                         "y": 74,
-                        "width": 31,
+                        "width": 26,
                         "height": 32
                     },
                     "region_attributes": {
@@ -33952,11 +34349,35 @@
                         "name": "rect",
                         "x": 128,
                         "y": 69,
-                        "width": 36,
+                        "width": 33,
                         "height": 29
                     },
                     "region_attributes": {
                         "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 162,
+                        "y": 8,
+                        "width": 24,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 183,
+                        "y": 6,
+                        "width": 17,
+                        "height": 24
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -33969,13 +34390,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 127,
-                        "y": 66,
-                        "width": 50,
-                        "height": 67
+                        "x": 134,
+                        "y": 73,
+                        "width": 39,
+                        "height": 53
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -34025,7 +34446,7 @@
                         "height": 50
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -34038,10 +34459,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 102,
+                        "x": 106,
                         "y": 42,
-                        "width": 25,
-                        "height": 45
+                        "width": 21,
+                        "height": 42
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -34051,8 +34472,8 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 124,
-                        "y": 38,
-                        "width": 24,
+                        "y": 41,
+                        "width": 28,
                         "height": 41
                     },
                     "region_attributes": {
@@ -34069,10 +34490,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 94,
-                        "y": 40,
-                        "width": 55,
-                        "height": 53
+                        "x": 93,
+                        "y": 39,
+                        "width": 43,
+                        "height": 45
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -34187,7 +34608,7 @@
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 }
             ],
@@ -34461,7 +34882,7 @@
                         "height": 47
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -34599,9 +35020,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 118,
-                        "y": 43,
+                        "y": 49,
                         "width": 20,
-                        "height": 44
+                        "height": 38
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -34629,13 +35050,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 114,
+                        "x": 119,
                         "y": 58,
-                        "width": 53,
+                        "width": 19,
                         "height": 55
                     },
                     "region_attributes": {
-                        "digit": "9"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 138,
+                        "y": 59,
+                        "width": 28,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -34648,10 +35081,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 104,
-                        "y": 72,
-                        "width": 49,
-                        "height": 59
+                        "x": 110,
+                        "y": 74,
+                        "width": 33,
+                        "height": 54
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -34668,7 +35101,7 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 115,
-                        "y": 67,
+                        "y": 69,
                         "width": 22,
                         "height": 28
                     },
@@ -34680,7 +35113,7 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 136,
-                        "y": 62,
+                        "y": 64,
                         "width": 20,
                         "height": 31
                     },
@@ -34730,12 +35163,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 120,
-                        "y": 56,
-                        "width": 41,
-                        "height": 41
+                        "y": 54,
+                        "width": 18,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 136,
+                        "y": 58,
+                        "width": 24,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -34830,12 +35275,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 113,
-                        "y": 48,
-                        "width": 52,
-                        "height": 54
+                        "y": 54,
+                        "width": 24,
+                        "height": 39
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 136,
+                        "y": 55,
+                        "width": 30,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -34941,13 +35398,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 101,
-                        "y": 56,
-                        "width": 40,
-                        "height": 44
+                        "x": 119,
+                        "y": 64,
+                        "width": 19,
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 102,
+                        "y": 59,
+                        "width": 16,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -34991,13 +35460,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
-                        "y": 64,
-                        "width": 59,
+                        "x": 98,
+                        "y": 66,
+                        "width": 22,
+                        "height": 32
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 116,
+                        "y": 63,
+                        "width": 27,
                         "height": 34
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "0"
                     }
                 }
             ],
@@ -35042,9 +35523,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 111,
-                        "y": 99,
+                        "y": 93,
                         "width": 15,
-                        "height": 27
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -35054,9 +35535,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 128,
-                        "y": 97,
+                        "y": 94,
                         "width": 24,
-                        "height": 28
+                        "height": 35
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -35072,10 +35553,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 125,
+                        "x": 123,
                         "y": 89,
-                        "width": 10,
-                        "height": 22
+                        "width": 12,
+                        "height": 25
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -35087,10 +35568,10 @@
                         "x": 136,
                         "y": 87,
                         "width": 26,
-                        "height": 21
+                        "height": 28
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "7"
                     }
                 }
             ],
@@ -35111,6 +35592,18 @@
                     "region_attributes": {
                         "digit": "1"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 101,
+                        "width": 25,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -35122,13 +35615,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 95,
-                        "y": 81,
-                        "width": 52,
-                        "height": 42
+                        "x": 104,
+                        "y": 84,
+                        "width": 24,
+                        "height": 36
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 79,
+                        "width": 17,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "1"
                     }
                 }
             ],
@@ -35141,13 +35646,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 99,
+                        "x": 102,
                         "y": 80,
-                        "width": 16,
+                        "width": 13,
                         "height": 27
                     },
                     "region_attributes": {
                         "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 113,
+                        "y": 88,
+                        "width": 28,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -35222,10 +35739,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 75,
-                        "y": 64,
-                        "width": 26,
-                        "height": 36
+                        "x": 79,
+                        "y": 68,
+                        "width": 22,
+                        "height": 32
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -35235,9 +35752,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 97,
-                        "y": 62,
+                        "y": 67,
                         "width": 23,
-                        "height": 42
+                        "height": 34
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -35268,7 +35785,56 @@
         "285.jpg_bb2.jpg9158": {
             "filename": "285.jpg_bb2.jpg",
             "size": 9158,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 68,
+                        "y": 86,
+                        "width": 29,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 62,
+                        "y": 8,
+                        "width": 17,
+                        "height": 21
+                    },
+                    "region_attributes": {
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 142,
+                        "y": 87,
+                        "width": 22,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 159,
+                        "y": 85,
+                        "width": 17,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "286.jpg_bb4.jpg7155": {
@@ -35322,6 +35888,18 @@
                     "region_attributes": {
                         "digit": "4"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 107,
+                        "y": 61,
+                        "width": 16,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -35335,11 +35913,23 @@
                         "name": "rect",
                         "x": 119,
                         "y": 63,
-                        "width": 32,
+                        "width": 20,
                         "height": 29
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 139,
+                        "y": 53,
+                        "width": 16,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -35353,9 +35943,21 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 119,
-                        "y": 52,
-                        "width": 39,
-                        "height": 41
+                        "y": 51,
+                        "width": 15,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 135,
+                        "y": 50,
+                        "width": 24,
+                        "height": 39
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -35373,7 +35975,7 @@
                         "name": "rect",
                         "x": 116,
                         "y": 62,
-                        "width": 14,
+                        "width": 16,
                         "height": 44
                     },
                     "region_attributes": {
@@ -35385,11 +35987,23 @@
                         "name": "rect",
                         "x": 132,
                         "y": 66,
-                        "width": 31,
-                        "height": 45
+                        "width": 27,
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 93,
+                        "y": 9,
+                        "width": 31,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -35495,13 +36109,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 97,
-                        "y": 45,
-                        "width": 73,
-                        "height": 84
+                        "x": 99,
+                        "y": 63,
+                        "width": 23,
+                        "height": 45
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 124,
+                        "y": 65,
+                        "width": 29,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -35514,10 +36140,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 90,
+                        "x": 95,
                         "y": 62,
-                        "width": 29,
-                        "height": 49
+                        "width": 24,
+                        "height": 44
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -35526,10 +36152,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 111,
+                        "x": 112,
                         "y": 59,
-                        "width": 37,
-                        "height": 46
+                        "width": 31,
+                        "height": 43
                     },
                     "region_attributes": {
                         "digit": "6"
@@ -35545,10 +36171,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 115,
-                        "y": 59,
-                        "width": 12,
-                        "height": 47
+                        "x": 109,
+                        "y": 71,
+                        "width": 23,
+                        "height": 37
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -35557,10 +36183,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 142,
-                        "y": 55,
-                        "width": 5,
-                        "height": 49
+                        "x": 134,
+                        "y": 70,
+                        "width": 19,
+                        "height": 34
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -35653,10 +36279,22 @@
                         "x": 108,
                         "y": 59,
                         "width": 47,
-                        "height": 37
+                        "height": 34
                     },
                     "region_attributes": {
                         "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 127,
+                        "y": 53,
+                        "width": 37,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -35687,7 +36325,7 @@
                         "height": 43
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "9"
                     }
                 }
             ],
@@ -35700,13 +36338,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 95,
-                        "y": 41,
-                        "width": 50,
-                        "height": 46
+                        "x": 105,
+                        "y": 45,
+                        "width": 40,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 90,
+                        "y": 43,
+                        "width": 34,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "1"
                     }
                 }
             ],
@@ -35719,10 +36369,34 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 100,
-                        "y": 52,
-                        "width": 74,
-                        "height": 37
+                        "x": 97,
+                        "y": 18,
+                        "width": 30,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 105,
+                        "y": 47,
+                        "width": 45,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 42,
+                        "width": 36,
+                        "height": 35
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -35738,25 +36412,49 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
-                        "y": 65,
-                        "width": 36,
-                        "height": 36
+                        "x": 87,
+                        "y": 39,
+                        "width": 26,
+                        "height": 30
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "8"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 90,
+                        "x": 112,
                         "y": 40,
-                        "width": 43,
-                        "height": 23
+                        "width": 26,
+                        "height": 29
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 110,
+                        "y": 66,
+                        "width": 34,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 97,
+                        "y": 66,
+                        "width": 29,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "1"
                     }
                 }
             ],
@@ -35831,10 +36529,22 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 88,
-                        "y": 40,
-                        "width": 64,
-                        "height": 59
+                        "x": 93,
+                        "y": 52,
+                        "width": 27,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 118,
+                        "y": 51,
+                        "width": 31,
+                        "height": 48
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -35850,22 +36560,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 84,
-                        "y": 33,
-                        "width": 15,
-                        "height": 31
-                    },
-                    "region_attributes": {
-                        "digit": "3"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 102,
-                        "y": 39,
-                        "width": 19,
-                        "height": 27
+                        "x": 95,
+                        "y": 35,
+                        "width": 30,
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -35874,13 +36572,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 127,
-                        "y": 70,
-                        "width": 20,
+                        "x": 119,
+                        "y": 68,
+                        "width": 33,
+                        "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 108,
+                        "y": 67,
+                        "width": 31,
                         "height": 30
                     },
                     "region_attributes": {
-                        "digit": "9"
+                        "digit": "1"
                     }
                 }
             ],
@@ -35893,63 +36603,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 163,
-                        "y": 64,
-                        "width": 22,
-                        "height": 17
+                        "x": 138,
+                        "y": 34,
+                        "width": 37,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "3"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 129,
-                        "y": 34,
-                        "width": 70,
+                        "x": 158,
+                        "y": 28,
+                        "width": 32,
                         "height": 35
                     },
                     "region_attributes": {
-                        "digit": "4"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "310.jpg_bb1.jpg5806": {
-            "filename": "310.jpg_bb1.jpg",
-            "size": 5806,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 94,
-                        "y": 54,
-                        "width": 46,
-                        "height": 56
-                    },
-                    "region_attributes": {
-                        "digit": "4"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "311.jpg_bb2.jpg6136": {
-            "filename": "311.jpg_bb2.jpg",
-            "size": 6136,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 107,
-                        "y": 67,
-                        "width": 40,
-                        "height": 38
-                    },
-                    "region_attributes": {
-                        "digit": "1"
+                        "digit": "0"
                     }
                 }
             ],
@@ -35962,13 +36634,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 86,
-                        "y": 60,
-                        "width": 47,
-                        "height": 45
+                        "x": 88,
+                        "y": 61,
+                        "width": 20,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 106,
+                        "y": 66,
+                        "width": 25,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -36059,6 +36743,30 @@
                         "y": 82,
                         "width": 21,
                         "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 140,
+                        "y": 24,
+                        "width": 26,
+                        "height": 31
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 120,
+                        "y": 23,
+                        "width": 22,
+                        "height": 32
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -36169,11 +36877,11 @@
                         "name": "rect",
                         "x": 113,
                         "y": 3,
-                        "width": 33,
-                        "height": 37
+                        "width": 16,
+                        "height": 32
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
                     }
                 },
                 {
@@ -36182,10 +36890,22 @@
                         "x": 163,
                         "y": 0,
                         "width": 19,
-                        "height": 40
+                        "height": 33
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 6,
+                        "width": 19,
+                        "height": 31
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -36198,10 +36918,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 111,
-                        "y": 87,
-                        "width": 18,
-                        "height": 23
+                        "x": 108,
+                        "y": 84,
+                        "width": 23,
+                        "height": 30
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -36211,9 +36931,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 133,
-                        "y": 89,
-                        "width": 18,
-                        "height": 26
+                        "y": 86,
+                        "width": 20,
+                        "height": 29
                     },
                     "region_attributes": {
                         "digit": "3"
@@ -36229,13 +36949,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 110,
-                        "y": 71,
-                        "width": 69,
-                        "height": 51
+                        "x": 120,
+                        "y": 75,
+                        "width": 28,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 149,
+                        "y": 81,
+                        "width": 31,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -36248,10 +36980,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 96,
-                        "y": 67,
-                        "width": 26,
-                        "height": 40
+                        "x": 102,
+                        "y": 72,
+                        "width": 20,
+                        "height": 31
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -36261,9 +36993,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 119,
-                        "y": 66,
-                        "width": 34,
-                        "height": 26
+                        "y": 74,
+                        "width": 26,
+                        "height": 30
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -36311,12 +37043,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 106,
-                        "y": 74,
-                        "width": 58,
-                        "height": 49
+                        "y": 80,
+                        "width": 24,
+                        "height": 34
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 75,
+                        "width": 22,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -36391,13 +37135,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 120,
+                        "x": 124,
                         "y": 70,
-                        "width": 43,
+                        "width": 19,
                         "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 142,
+                        "y": 72,
+                        "width": 22,
+                        "height": 32
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -36474,8 +37230,20 @@
                         "name": "rect",
                         "x": 108,
                         "y": 43,
-                        "width": 47,
+                        "width": 24,
                         "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 132,
+                        "y": 39,
+                        "width": 29,
+                        "height": 39
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -36492,12 +37260,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 85,
-                        "y": 43,
-                        "width": 49,
-                        "height": 52
+                        "y": 44,
+                        "width": 26,
+                        "height": 47
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 97,
+                        "y": 48,
+                        "width": 40,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -36510,13 +37290,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 103,
-                        "y": 43,
-                        "width": 53,
-                        "height": 53
+                        "x": 108,
+                        "y": 54,
+                        "width": 24,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 132,
+                        "y": 44,
+                        "width": 21,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -36653,13 +37445,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 123,
-                        "y": 85,
-                        "width": 34,
-                        "height": 39
+                        "x": 135,
+                        "y": 90,
+                        "width": 22,
+                        "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 121,
+                        "y": 90,
+                        "width": 20,
+                        "height": 31
+                    },
+                    "region_attributes": {
+                        "digit": "1"
                     }
                 }
             ],
@@ -36672,13 +37476,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 88,
-                        "y": 63,
-                        "width": 56,
-                        "height": 49
+                        "x": 95,
+                        "y": 72,
+                        "width": 24,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 68,
+                        "width": 25,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -36693,11 +37509,23 @@
                         "name": "rect",
                         "x": 108,
                         "y": 86,
-                        "width": 52,
+                        "width": 28,
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 85,
+                        "width": 26,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -36901,13 +37729,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 91,
-                        "y": 64,
-                        "width": 52,
-                        "height": 36
+                        "x": 112,
+                        "y": 72,
+                        "width": 27,
+                        "height": 37
                     },
                     "region_attributes": {
                         "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 96,
+                        "y": 72,
+                        "width": 20,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -36953,23 +37793,71 @@
                         "name": "rect",
                         "x": 143,
                         "y": 118,
-                        "width": 24,
+                        "width": 13,
                         "height": 23
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
                         "x": 71,
+                        "y": 58,
+                        "width": 19,
+                        "height": 21
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 89,
                         "y": 53,
-                        "width": 33,
+                        "width": 15,
+                        "height": 22
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 147,
+                        "y": 30,
+                        "width": 13,
+                        "height": 24
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 158,
+                        "y": 33,
+                        "width": 13,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 156,
+                        "y": 118,
+                        "width": 12,
                         "height": 26
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -37009,7 +37897,32 @@
         "333.jpg_bb3.jpg6681": {
             "filename": "333.jpg_bb3.jpg",
             "size": 6681,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 113,
+                        "y": 41,
+                        "width": 13,
+                        "height": 24
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 42,
+                        "width": 14,
+                        "height": 26
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "334.jpg_bb1.jpg7826": {
@@ -37020,9 +37933,21 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 99,
-                        "y": 86,
-                        "width": 53,
-                        "height": 33
+                        "y": 87,
+                        "width": 28,
+                        "height": 32
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 83,
+                        "width": 20,
+                        "height": 32
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -37039,7 +37964,7 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 126,
-                        "y": 78,
+                        "y": 76,
                         "width": 27,
                         "height": 26
                     },
@@ -37057,10 +37982,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 109,
-                        "y": 64,
-                        "width": 16,
-                        "height": 22
+                        "x": 107,
+                        "y": 62,
+                        "width": 21,
+                        "height": 33
                     },
                     "region_attributes": {
                         "digit": "9"
@@ -37076,10 +38001,22 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 100,
+                        "x": 104,
                         "y": 101,
-                        "width": 54,
+                        "width": 25,
                         "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 97,
+                        "width": 25,
+                        "height": 34
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -37127,9 +38064,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 172,
-                        "y": 106,
+                        "y": 108,
                         "width": 24,
-                        "height": 35
+                        "height": 33
                     },
                     "region_attributes": {
                         "digit": "5"
@@ -37141,10 +38078,22 @@
                         "x": 194,
                         "y": 113,
                         "width": 18,
-                        "height": 26
+                        "height": 29
                     },
                     "region_attributes": {
                         "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 200,
+                        "y": 64,
+                        "width": 18,
+                        "height": 23
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -37157,13 +38106,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 116,
-                        "y": 46,
-                        "width": 66,
-                        "height": 63
+                        "x": 128,
+                        "y": 72,
+                        "width": 36,
+                        "height": 37
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 142,
+                        "y": 54,
+                        "width": 31,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -37177,9 +38138,21 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 80,
-                        "y": 84,
-                        "width": 46,
-                        "height": 46
+                        "y": 88,
+                        "width": 26,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 102,
+                        "y": 95,
+                        "width": 28,
+                        "height": 35
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -37207,9 +38180,9 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 120,
+                        "x": 123,
                         "y": 42,
-                        "width": 36,
+                        "width": 33,
                         "height": 42
                     },
                     "region_attributes": {
@@ -37257,13 +38230,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 115,
-                        "y": 37,
-                        "width": 48,
-                        "height": 46
+                        "x": 120,
+                        "y": 43,
+                        "width": 30,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 40,
+                        "width": 29,
+                        "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -37283,6 +38268,18 @@
                     },
                     "region_attributes": {
                         "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 160,
+                        "y": 58,
+                        "width": 28,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
