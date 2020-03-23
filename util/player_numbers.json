@@ -15,7 +15,7 @@
             },
             "image": {
                 "region_label": "__via_region_id__",
-                "region_color": "__via_default_region_color__",
+                "region_color": "digit",
                 "region_label_font": "10px Sans",
                 "on_image_annotation_editor_placement": "NEAR_REGION"
             }
@@ -126,7 +126,32 @@
         "auburn_20.jpg_bb1.jpg5684": {
             "filename": "auburn_20.jpg_bb1.jpg",
             "size": 5684,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 94,
+                        "y": 78,
+                        "width": 23,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 117,
+                        "y": 79,
+                        "width": 28,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_21.jpg_bb0.jpg5609": {
@@ -136,10 +161,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 87,
+                        "x": 93,
                         "y": 68,
-                        "width": 32,
-                        "height": 46
+                        "width": 26,
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -150,8 +175,8 @@
                         "name": "rect",
                         "x": 121,
                         "y": 67,
-                        "width": 22,
-                        "height": 39
+                        "width": 29,
+                        "height": 41
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -167,13 +192,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 97,
-                        "y": 103,
-                        "width": 59,
-                        "height": 41
+                        "x": 125,
+                        "y": 101,
+                        "width": 30,
+                        "height": 46
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 102,
+                        "y": 102,
+                        "width": 24,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -250,11 +287,11 @@
                         "name": "rect",
                         "x": 105,
                         "y": 52,
-                        "width": 48,
-                        "height": 35
+                        "width": 26,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
                     }
                 },
                 {
@@ -266,7 +303,19 @@
                         "height": 23
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 53,
+                        "width": 20,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -316,7 +365,7 @@
                         "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -373,7 +422,7 @@
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
                     }
                 }
             ],
@@ -550,11 +599,23 @@
                         "name": "rect",
                         "x": 133,
                         "y": 49,
-                        "width": 42,
-                        "height": 48
+                        "width": 25,
+                        "height": 49
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 157,
+                        "y": 51,
+                        "width": 18,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -569,11 +630,11 @@
                         "name": "rect",
                         "x": 105,
                         "y": 60,
-                        "width": 60,
-                        "height": 49
+                        "width": 32,
+                        "height": 51
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
                     }
                 },
                 {
@@ -586,6 +647,30 @@
                     },
                     "region_attributes": {
                         "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 57,
+                        "width": 32,
+                        "height": 56
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 108,
+                        "y": 11,
+                        "width": 26,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -710,13 +795,37 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 123,
-                        "y": 105,
-                        "width": 36,
-                        "height": 49
+                        "x": 129,
+                        "y": 112,
+                        "width": 22,
+                        "height": 34
                     },
                     "region_attributes": {
                         "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 110,
+                        "y": 27,
+                        "width": 17,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 22,
+                        "width": 13,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -748,6 +857,18 @@
                     },
                     "region_attributes": {
                         "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 52,
+                        "y": 8,
+                        "width": 21,
+                        "height": 32
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -865,10 +986,34 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 51,
+                        "x": 53,
                         "y": 71,
-                        "width": 59,
-                        "height": 57
+                        "width": 33,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 86,
+                        "width": 24,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 120,
+                        "y": 165,
+                        "width": 27,
+                        "height": 38
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -877,25 +1022,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 114,
-                        "y": 81,
-                        "width": 54,
-                        "height": 45
+                        "x": 82,
+                        "y": 70,
+                        "width": 25,
+                        "height": 57
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 101,
-                        "y": 147,
-                        "width": 46,
-                        "height": 56
+                        "x": 136,
+                        "y": 85,
+                        "width": 33,
+                        "height": 47
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 }
             ],
@@ -939,13 +1084,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
+                        "x": 136,
                         "y": 43,
-                        "width": 53,
+                        "width": 23,
                         "height": 47
                     },
                     "region_attributes": {
                         "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 107,
+                        "y": 46,
+                        "width": 30,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -954,7 +1111,32 @@
         "auburn_54.jpg_bb6.jpg7012": {
             "filename": "auburn_54.jpg_bb6.jpg",
             "size": 7012,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 103,
+                        "y": 45,
+                        "width": 30,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 45,
+                        "width": 23,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_54.jpg_bb9.jpg6487": {
@@ -1002,13 +1184,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 103,
-                        "y": 31,
-                        "width": 66,
-                        "height": 62
+                        "x": 111,
+                        "y": 39,
+                        "width": 28,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 139,
+                        "y": 40,
+                        "width": 28,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -1021,13 +1215,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 85,
+                        "x": 101,
                         "y": 54,
-                        "width": 40,
+                        "width": 24,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 88,
+                        "y": 53,
+                        "width": 16,
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
                     }
                 }
             ],
@@ -1102,32 +1308,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 80,
+                        "x": 84,
                         "y": 51,
-                        "width": 48,
-                        "height": 45
+                        "width": 17,
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
                     }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_68.jpg_bb1.jpg6445": {
-            "filename": "auburn_68.jpg_bb1.jpg",
-            "size": 6445,
-            "regions": [
+                },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 112,
-                        "y": 52,
-                        "width": 39,
-                        "height": 43
+                        "x": 101,
+                        "y": 55,
+                        "width": 26,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "9"
                     }
                 }
             ],
@@ -1140,13 +1339,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 107,
-                        "y": 53,
-                        "width": 40,
-                        "height": 47
+                        "x": 114,
+                        "y": 51,
+                        "width": 14,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 59,
+                        "width": 18,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -1165,7 +1376,7 @@
                         "height": 50
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -1336,7 +1547,32 @@
         "auburn_85.jpg_bb1.jpg5530": {
             "filename": "auburn_85.jpg_bb1.jpg",
             "size": 5530,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 98,
+                        "y": 41,
+                        "width": 31,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 41,
+                        "width": 27,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_86.jpg_bb7.jpg5980": {
@@ -1378,12 +1614,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 85,
-                        "y": 54,
-                        "width": 45,
-                        "height": 56
+                        "y": 67,
+                        "width": 27,
+                        "height": 33
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "5"
                     }
                 },
                 {
@@ -1391,11 +1627,23 @@
                         "name": "rect",
                         "x": 157,
                         "y": 27,
-                        "width": 39,
+                        "width": 32,
                         "height": 53
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 109,
+                        "y": 66,
+                        "width": 19,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -1441,7 +1689,19 @@
                         "name": "rect",
                         "x": 97,
                         "y": 44,
-                        "width": 53,
+                        "width": 27,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 122,
+                        "y": 45,
+                        "width": 29,
                         "height": 42
                     },
                     "region_attributes": {
@@ -1458,13 +1718,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 108,
-                        "y": 39,
-                        "width": 56,
-                        "height": 54
+                        "x": 113,
+                        "y": 47,
+                        "width": 19,
+                        "height": 43
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 131,
+                        "y": 48,
+                        "width": 25,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -1496,6 +1768,18 @@
                     },
                     "region_attributes": {
                         "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 172,
+                        "y": 15,
+                        "width": 31,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -1588,7 +1872,7 @@
                         "height": 45
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "6"
                     }
                 }
             ],
@@ -1607,7 +1891,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "5"
                     }
                 }
             ],
@@ -1626,7 +1910,7 @@
                         "height": 48
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -1654,7 +1938,32 @@
         "auburn_92.jpg_bb1.jpg5071": {
             "filename": "auburn_92.jpg_bb1.jpg",
             "size": 5071,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 41,
+                        "width": 24,
+                        "height": 49
+                    },
+                    "region_attributes": {
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 142,
+                        "y": 40,
+                        "width": 20,
+                        "height": 48
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_93.jpg_bb0.jpg5886": {
@@ -1671,25 +1980,6 @@
                     },
                     "region_attributes": {
                         "digit": "4"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_93.jpg_bb1.jpg5492": {
-            "filename": "auburn_93.jpg_bb1.jpg",
-            "size": 5492,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 131,
-                        "y": 51,
-                        "width": 30,
-                        "height": 42
-                    },
-                    "region_attributes": {
-                        "digit": "2"
                     }
                 }
             ],
@@ -1886,7 +2176,32 @@
         "auburn_97.jpg_bb6.jpg6385": {
             "filename": "auburn_97.jpg_bb6.jpg",
             "size": 6385,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 101,
+                        "width": 19,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 139,
+                        "y": 105,
+                        "width": 30,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "6"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_98.jpg_bb0.jpg5989": {
@@ -1952,7 +2267,7 @@
                         "height": 31
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "1"
                     }
                 },
                 {
@@ -1964,7 +2279,7 @@
                         "height": 31
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
                     }
                 }
             ],
@@ -2016,6 +2331,42 @@
                     "region_attributes": {
                         "digit": "3"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 70,
+                        "y": 1,
+                        "width": 19,
+                        "height": 15
+                    },
+                    "region_attributes": {
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 76,
+                        "y": 6,
+                        "width": 21,
+                        "height": 20
+                    },
+                    "region_attributes": {
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 94,
+                        "y": 32,
+                        "width": 25,
+                        "height": 30
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -2066,6 +2417,18 @@
                     "region_attributes": {
                         "digit": "3"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 23,
+                        "width": 21,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -2083,7 +2446,7 @@
                         "height": 48
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -2102,7 +2465,7 @@
                         "height": 54
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -2204,12 +2567,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 92,
-                        "y": 29,
-                        "width": 51,
-                        "height": 51
+                        "y": 37,
+                        "width": 26,
+                        "height": 43
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 34,
+                        "width": 27,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -2234,37 +2609,6 @@
             ],
             "file_attributes": {}
         },
-        "auburn_106.jpg_bb3.jpg7473": {
-            "filename": "auburn_106.jpg_bb3.jpg",
-            "size": 7473,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 96,
-                        "y": 43,
-                        "width": 49,
-                        "height": 54
-                    },
-                    "region_attributes": {
-                        "digit": "0"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 57,
-                        "y": 5,
-                        "width": 39,
-                        "height": 39
-                    },
-                    "region_attributes": {
-                        "digit": "1"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
         "auburn_107.jpg_bb0.jpg5844": {
             "filename": "auburn_107.jpg_bb0.jpg",
             "size": 5844,
@@ -2278,7 +2622,7 @@
                         "height": 52
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -2298,25 +2642,6 @@
                     },
                     "region_attributes": {
                         "digit": "4"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_113.jpg_bb0.jpg5359": {
-            "filename": "auburn_113.jpg_bb0.jpg",
-            "size": 5359,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 94,
-                        "y": 72,
-                        "width": 47,
-                        "height": 48
-                    },
-                    "region_attributes": {
-                        "digit": "8"
                     }
                 }
             ],
@@ -2356,7 +2681,20 @@
         "auburn_114.jpg_bb0.jpg5367": {
             "filename": "auburn_114.jpg_bb0.jpg",
             "size": 5367,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 96,
+                        "y": 75,
+                        "width": 42,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_114.jpg_bb1.jpg5491": {
@@ -2372,7 +2710,7 @@
                         "height": 72
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -2424,12 +2762,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 114,
-                        "y": 56,
-                        "width": 44,
-                        "height": 40
+                        "y": 63,
+                        "width": 25,
+                        "height": 37
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 140,
+                        "y": 64,
+                        "width": 23,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -2438,7 +2788,20 @@
         "auburn_118.jpg_bb3.jpg7591": {
             "filename": "auburn_118.jpg_bb3.jpg",
             "size": 7591,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 104,
+                        "y": 97,
+                        "width": 23,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_119.jpg_bb0.jpg5037": {
@@ -2534,8 +2897,8 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 115,
-                        "y": 112,
+                        "x": 113,
+                        "y": 107,
                         "width": 24,
                         "height": 19
                     },
@@ -2559,7 +2922,7 @@
                         "height": 51
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -2736,11 +3099,23 @@
                         "name": "rect",
                         "x": 102,
                         "y": 64,
-                        "width": 55,
-                        "height": 36
+                        "width": 30,
+                        "height": 38
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 63,
+                        "width": 26,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -2815,21 +3190,9 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 117,
-                        "y": 32,
-                        "width": 40,
-                        "height": 37
-                    },
-                    "region_attributes": {
-                        "digit": "0"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 108,
-                        "y": 95,
-                        "width": 41,
+                        "x": 122,
+                        "y": 33,
+                        "width": 19,
                         "height": 36
                     },
                     "region_attributes": {
@@ -2839,13 +3202,49 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 90,
+                        "x": 108,
+                        "y": 96,
+                        "width": 24,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 91,
                         "y": 225,
-                        "width": 38,
+                        "width": 31,
                         "height": 30
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 31,
+                        "width": 17,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 127,
+                        "y": 97,
+                        "width": 21,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -2889,13 +3288,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 118,
-                        "y": 44,
-                        "width": 54,
-                        "height": 50
+                        "x": 128,
+                        "y": 49,
+                        "width": 30,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 149,
+                        "y": 44,
+                        "width": 18,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -2910,11 +3321,23 @@
                         "name": "rect",
                         "x": 122,
                         "y": 43,
-                        "width": 45,
+                        "width": 27,
                         "height": 37
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 147,
+                        "y": 42,
+                        "width": 21,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -2927,7 +3350,7 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
+                        "x": 91,
                         "y": 53,
                         "width": 29,
                         "height": 47
@@ -2939,7 +3362,7 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 119,
+                        "x": 120,
                         "y": 56,
                         "width": 21,
                         "height": 38
@@ -2958,13 +3381,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 89,
+                        "x": 117,
                         "y": 49,
-                        "width": 57,
+                        "width": 26,
                         "height": 42
                     },
                     "region_attributes": {
                         "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 93,
+                        "y": 46,
+                        "width": 24,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -3063,37 +3498,6 @@
             ],
             "file_attributes": {}
         },
-        "auburn_154.jpg_bb9.jpg4514": {
-            "filename": "auburn_154.jpg_bb9.jpg",
-            "size": 4514,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 119,
-                        "y": 53,
-                        "width": 17,
-                        "height": 42
-                    },
-                    "region_attributes": {
-                        "digit": "2"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 130,
-                        "y": 51,
-                        "width": 32,
-                        "height": 43
-                    },
-                    "region_attributes": {
-                        "digit": "5"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
         "auburn_155.jpg_bb0.jpg4836": {
             "filename": "auburn_155.jpg_bb0.jpg",
             "size": 4836,
@@ -3101,13 +3505,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 119,
+                        "x": 149,
                         "y": 59,
-                        "width": 54,
+                        "width": 24,
                         "height": 44
                     },
                     "region_attributes": {
                         "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 121,
+                        "y": 60,
+                        "width": 29,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -3173,7 +3589,20 @@
         "auburn_166.jpg_bb2.jpg4843": {
             "filename": "auburn_166.jpg_bb2.jpg",
             "size": 4843,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 56,
+                        "width": 31,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "6"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_166.jpg_bb4.jpg5239": {
@@ -3204,23 +3633,35 @@
                         "name": "rect",
                         "x": 99,
                         "y": 69,
-                        "width": 38,
+                        "width": 23,
                         "height": 39
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
                         "x": 121,
-                        "y": 35,
-                        "width": 35,
-                        "height": 31
+                        "y": 71,
+                        "width": 21,
+                        "height": 36
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 134,
+                        "y": 42,
+                        "width": 22,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -3229,7 +3670,32 @@
         "auburn_167.jpg_bb2.jpg6117": {
             "filename": "auburn_167.jpg_bb2.jpg",
             "size": 6117,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 87,
+                        "y": 66,
+                        "width": 29,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 55,
+                        "width": 22,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "0"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_167.jpg_bb7.jpg6129": {
@@ -3257,7 +3723,7 @@
                         "height": 48
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "5"
                     }
                 }
             ],
@@ -3341,11 +3807,23 @@
                         "name": "rect",
                         "x": 84,
                         "y": 50,
-                        "width": 72,
+                        "width": 35,
                         "height": 63
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 56,
+                        "width": 49,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -3360,11 +3838,23 @@
                         "name": "rect",
                         "x": 81,
                         "y": 62,
-                        "width": 69,
+                        "width": 35,
                         "height": 56
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 113,
+                        "y": 64,
+                        "width": 43,
+                        "height": 55
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -3383,7 +3873,7 @@
                         "height": 57
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "6"
                     }
                 }
             ],
@@ -3430,7 +3920,32 @@
         "auburn_194.jpg_bb0.jpg6246": {
             "filename": "auburn_194.jpg_bb0.jpg",
             "size": 6246,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 110,
+                        "y": 62,
+                        "width": 23,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 131,
+                        "y": 70,
+                        "width": 31,
+                        "height": 48
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_197.jpg_bb2.jpg5521": {
@@ -3739,7 +4254,7 @@
                         "height": 47
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "2"
                     }
                 },
                 {
@@ -3828,11 +4343,23 @@
                         "name": "rect",
                         "x": 84,
                         "y": 56,
-                        "width": 55,
+                        "width": 29,
                         "height": 51
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 113,
+                        "y": 53,
+                        "width": 28,
+                        "height": 51
+                    },
+                    "region_attributes": {
+                        "digit": "0"
                     }
                 }
             ],
@@ -3879,7 +4406,7 @@
                         "x": 89,
                         "y": 71,
                         "width": 24,
-                        "height": 24
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -3888,13 +4415,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 111,
+                        "x": 113,
                         "y": 62,
                         "width": 22,
-                        "height": 34
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 }
             ],
@@ -3994,7 +4521,7 @@
                         "height": 35
                     },
                     "region_attributes": {
-                        "digit": "8"
+                        "digit": "2"
                     }
                 },
                 {
@@ -4006,7 +4533,7 @@
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "6"
                     }
                 }
             ],
@@ -4046,7 +4573,32 @@
         "auburn_247.jpg_bb3.jpg6101": {
             "filename": "auburn_247.jpg_bb3.jpg",
             "size": 6101,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 69,
+                        "width": 12,
+                        "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 118,
+                        "y": 72,
+                        "width": 16,
+                        "height": 31
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_248.jpg_bb0.jpg5484": {
@@ -4071,7 +4623,20 @@
         "auburn_248.jpg_bb1.jpg5500": {
             "filename": "auburn_248.jpg_bb1.jpg",
             "size": 5500,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 107,
+                        "y": 59,
+                        "width": 32,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_257.jpg_bb1.jpg6651": {
@@ -4106,7 +4671,7 @@
                         "height": 43
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -4144,19 +4709,31 @@
                         "height": 37
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "5"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
-                        "y": 24,
-                        "width": 44,
+                        "x": 101,
+                        "y": 26,
+                        "width": 18,
                         "height": 34
                     },
                     "region_attributes": {
                         "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 110,
+                        "y": 19,
+                        "width": 18,
+                        "height": 33
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -4175,7 +4752,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -4188,13 +4765,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 133,
-                        "y": 51,
-                        "width": 36,
-                        "height": 40
+                        "x": 140,
+                        "y": 57,
+                        "width": 28,
+                        "height": 52
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -4213,7 +4790,7 @@
                         "height": 31
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "5"
                     }
                 }
             ],
@@ -4405,32 +4982,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 101,
-                        "y": 53,
-                        "width": 59,
-                        "height": 53
+                        "x": 103,
+                        "y": 61,
+                        "width": 24,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
                     }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_273.jpg_bb2.jpg4993": {
-            "filename": "auburn_273.jpg_bb2.jpg",
-            "size": 4993,
-            "regions": [
+                },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 96,
-                        "y": 25,
-                        "width": 61,
-                        "height": 51
+                        "x": 124,
+                        "y": 60,
+                        "width": 30,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -4549,7 +5119,7 @@
                         "height": 45
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
                     }
                 }
             ],
@@ -4987,10 +5557,10 @@
                         "x": 121,
                         "y": 54,
                         "width": 29,
-                        "height": 34
+                        "height": 44
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 },
                 {
@@ -5002,7 +5572,7 @@
                         "height": 45
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
                     }
                 }
             ],
@@ -5079,11 +5649,23 @@
                         "name": "rect",
                         "x": 103,
                         "y": 54,
-                        "width": 50,
+                        "width": 28,
                         "height": 45
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 127,
+                        "y": 54,
+                        "width": 32,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -5278,7 +5860,20 @@
         "auburn_335.jpg_bb0.jpg6360": {
             "filename": "auburn_335.jpg_bb0.jpg",
             "size": 6360,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 128,
+                        "y": 65,
+                        "width": 36,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_335.jpg_bb1.jpg6235": {
@@ -5306,7 +5901,7 @@
                         "height": 47
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "8"
                     }
                 }
             ],
@@ -5325,7 +5920,7 @@
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -5340,11 +5935,23 @@
                         "name": "rect",
                         "x": 114,
                         "y": 58,
-                        "width": 56,
+                        "width": 33,
                         "height": 50
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 146,
+                        "y": 58,
+                        "width": 26,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -5439,7 +6046,7 @@
                         "height": 51
                     },
                     "region_attributes": {
-                        "digit": "7"
+                        "digit": "4"
                     }
                 }
             ],
@@ -5510,6 +6117,30 @@
                     "region_attributes": {
                         "digit": "9"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 136,
+                        "y": 90,
+                        "width": 21,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 117,
+                        "y": 27,
+                        "width": 20,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "8"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -5579,6 +6210,18 @@
                     "region_attributes": {
                         "digit": "4"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 108,
+                        "y": 50,
+                        "width": 26,
+                        "height": 53
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -5615,7 +6258,7 @@
                         "height": 48
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -5647,10 +6290,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 71,
-                        "y": 47,
-                        "width": 4,
-                        "height": 63
+                        "x": 60,
+                        "y": 54,
+                        "width": 26,
+                        "height": 44
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -5660,9 +6303,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 85,
-                        "y": 45,
+                        "y": 57,
                         "width": 24,
-                        "height": 58
+                        "height": 46
                     },
                     "region_attributes": {
                         "digit": "4"
@@ -5703,7 +6346,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "5"
                     }
                 }
             ],
@@ -5753,7 +6396,7 @@
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "7"
+                        "digit": "4"
                     }
                 }
             ],
@@ -5816,13 +6459,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
-                        "y": 45,
-                        "width": 56,
-                        "height": 54
+                        "x": 102,
+                        "y": 53,
+                        "width": 27,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 51,
+                        "width": 16,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -5935,13 +6590,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 102,
-                        "y": 47,
-                        "width": 51,
-                        "height": 56
+                        "x": 107,
+                        "y": 53,
+                        "width": 23,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 58,
+                        "width": 28,
+                        "height": 38
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -5960,7 +6627,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -5969,7 +6636,32 @@
         "auburn_365.jpg_bb2.jpg5632": {
             "filename": "auburn_365.jpg_bb2.jpg",
             "size": 5632,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 45,
+                        "width": 33,
+                        "height": 53
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 156,
+                        "y": 57,
+                        "width": 32,
+                        "height": 48
+                    },
+                    "region_attributes": {
+                        "digit": "6"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_365.jpg_bb7.jpg5641": {
@@ -6056,7 +6748,20 @@
         "auburn_376.jpg_bb5.jpg9724": {
             "filename": "auburn_376.jpg_bb5.jpg",
             "size": 9724,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 173,
+                        "y": 29,
+                        "width": 20,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_377.jpg_bb3.jpg5290": {
@@ -6222,6 +6927,18 @@
                     "region_attributes": {
                         "digit": "5"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 88,
+                        "y": 30,
+                        "width": 18,
+                        "height": 30
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -6289,12 +7006,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 67,
-                        "y": 149,
-                        "width": 24,
-                        "height": 31
+                        "y": 202,
+                        "width": 22,
+                        "height": 51
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 }
             ],
@@ -6359,11 +7076,23 @@
                         "name": "rect",
                         "x": 103,
                         "y": 65,
-                        "width": 52,
+                        "width": 27,
                         "height": 46
                     },
                     "region_attributes": {
-                        "digit": "7"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 127,
+                        "y": 64,
+                        "width": 31,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -6457,13 +7186,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 91,
+                        "x": 94,
                         "y": 60,
-                        "width": 71,
+                        "width": 30,
                         "height": 58
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 120,
+                        "y": 66,
+                        "width": 38,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -6651,9 +7392,21 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 110,
-                        "y": 57,
-                        "width": 53,
-                        "height": 46
+                        "y": 63,
+                        "width": 30,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 137,
+                        "y": 59,
+                        "width": 28,
+                        "height": 44
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -6752,8 +7505,20 @@
                         "name": "rect",
                         "x": 91,
                         "y": 83,
-                        "width": 47,
-                        "height": 36
+                        "width": 20,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 10,
+                        "width": 17,
+                        "height": 45
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -6762,13 +7527,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 113,
-                        "y": 10,
-                        "width": 40,
-                        "height": 44
+                        "x": 108,
+                        "y": 86,
+                        "width": 22,
+                        "height": 31
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "0"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 12,
+                        "width": 25,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -6874,13 +7651,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
-                        "y": 71,
-                        "width": 51,
-                        "height": 44
+                        "x": 98,
+                        "y": 76,
+                        "width": 22,
+                        "height": 34
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 117,
+                        "y": 77,
+                        "width": 24,
+                        "height": 32
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -6992,7 +7781,7 @@
                         "height": 39
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "8"
                     }
                 },
                 {
@@ -7085,7 +7874,7 @@
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
                     }
                 },
                 {
@@ -7097,7 +7886,7 @@
                         "height": 39
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "6"
                     }
                 }
             ],
@@ -7141,13 +7930,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 98,
-                        "y": 36,
-                        "width": 61,
-                        "height": 49
+                        "x": 103,
+                        "y": 39,
+                        "width": 30,
+                        "height": 46
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 36,
+                        "width": 23,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -7162,11 +7963,23 @@
                         "name": "rect",
                         "x": 103,
                         "y": 57,
-                        "width": 58,
+                        "width": 28,
                         "height": 48
                     },
                     "region_attributes": {
-                        "digit": "9"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 130,
+                        "y": 58,
+                        "width": 32,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -7197,7 +8010,7 @@
                         "height": 37
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 }
             ],
@@ -7216,7 +8029,7 @@
                         "height": 39
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -7225,7 +8038,20 @@
         "auburn_407.jpg_bb5.jpg4930": {
             "filename": "auburn_407.jpg_bb5.jpg",
             "size": 4930,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 87,
+                        "y": 65,
+                        "width": 38,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_408.jpg_bb5.jpg4438": {
@@ -7256,11 +8082,23 @@
                         "name": "rect",
                         "x": 88,
                         "y": 66,
-                        "width": 59,
+                        "width": 31,
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 119,
+                        "y": 67,
+                        "width": 26,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -7275,11 +8113,23 @@
                         "name": "rect",
                         "x": 74,
                         "y": 59,
-                        "width": 55,
+                        "width": 30,
                         "height": 43
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 102,
+                        "y": 57,
+                        "width": 26,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -7298,7 +8148,7 @@
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "8"
                     }
                 },
                 {
@@ -7310,7 +8160,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "8"
                     }
                 }
             ],
@@ -7380,25 +8230,6 @@
                     },
                     "region_attributes": {
                         "digit": "9"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_415.jpg_bb2.jpg6447": {
-            "filename": "auburn_415.jpg_bb2.jpg",
-            "size": 6447,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 156,
-                        "y": 67,
-                        "width": 24,
-                        "height": 44
-                    },
-                    "region_attributes": {
-                        "digit": "8"
                     }
                 }
             ],
@@ -7518,25 +8349,49 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 123,
-                        "y": 38,
-                        "width": 42,
-                        "height": 36
+                        "x": 131,
+                        "y": 45,
+                        "width": 16,
+                        "height": 25
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "1"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 136,
-                        "y": 128,
-                        "width": 48,
+                        "x": 145,
+                        "y": 131,
+                        "width": 19,
+                        "height": 30
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 145,
+                        "y": 46,
+                        "width": 16,
+                        "height": 24
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 160,
+                        "y": 132,
+                        "width": 16,
                         "height": 29
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
                     }
                 }
             ],
@@ -7617,7 +8472,7 @@
                         "height": 62
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
                     }
                 }
             ],
@@ -7686,7 +8541,7 @@
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "6"
+                        "digit": "2"
                     }
                 }
             ],
@@ -7828,7 +8683,20 @@
         "auburn_446.jpg_bb2.jpg6306": {
             "filename": "auburn_446.jpg_bb2.jpg",
             "size": 6306,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 109,
+                        "y": 80,
+                        "width": 37,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_446.jpg_bb12.jpg6877": {
@@ -7890,11 +8758,23 @@
                         "name": "rect",
                         "x": 132,
                         "y": 27,
-                        "width": 41,
+                        "width": 28,
                         "height": 43
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 147,
+                        "y": 28,
+                        "width": 31,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -8030,6 +8910,18 @@
                         "y": 67,
                         "width": 19,
                         "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 164,
+                        "y": 65,
+                        "width": 14,
+                        "height": 35
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -8171,7 +9063,7 @@
                         "name": "rect",
                         "x": 159,
                         "y": 36,
-                        "width": 22,
+                        "width": 20,
                         "height": 27
                     },
                     "region_attributes": {
@@ -8188,6 +9080,18 @@
                     },
                     "region_attributes": {
                         "digit": "3"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 175,
+                        "y": 39,
+                        "width": 21,
+                        "height": 28
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -8244,7 +9148,7 @@
                         "height": 34
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
                     }
                 },
                 {
@@ -8256,7 +9160,7 @@
                         "height": 28
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
                     }
                 }
             ],
@@ -8424,13 +9328,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 112,
-                        "y": 54,
-                        "width": 52,
-                        "height": 44
+                        "x": 108,
+                        "y": 49,
+                        "width": 33,
+                        "height": 41
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 134,
+                        "y": 55,
+                        "width": 31,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -8505,13 +9421,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 99,
+                        "x": 104,
                         "y": 45,
-                        "width": 64,
-                        "height": 48
+                        "width": 30,
+                        "height": 47
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 47,
+                        "width": 32,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -8530,7 +9458,7 @@
                         "height": 36
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 },
                 {
@@ -8556,12 +9484,24 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 104,
-                        "y": 57,
-                        "width": 42,
-                        "height": 32
+                        "y": 56,
+                        "width": 22,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 125,
+                        "y": 56,
+                        "width": 23,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -8574,13 +9514,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 122,
+                        "x": 126,
                         "y": 36,
-                        "width": 66,
+                        "width": 29,
                         "height": 42
                     },
                     "region_attributes": {
                         "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 153,
+                        "y": 37,
+                        "width": 30,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -8593,10 +9545,10 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 114,
+                        "x": 105,
                         "y": 39,
-                        "width": 19,
-                        "height": 37
+                        "width": 28,
+                        "height": 36
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -8711,7 +9663,7 @@
                         "height": 31
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 },
                 {
@@ -8837,6 +9789,18 @@
                     "region_attributes": {
                         "digit": "7"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 164,
+                        "y": 9,
+                        "width": 31,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -8898,10 +9862,22 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 105,
+                        "x": 110,
                         "y": 49,
-                        "width": 62,
+                        "width": 28,
                         "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 134,
+                        "y": 49,
+                        "width": 30,
+                        "height": 47
                     },
                     "region_attributes": {
                         "digit": "0"
@@ -8917,13 +9893,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
-                        "y": 51,
-                        "width": 11,
-                        "height": 27
+                        "x": 103,
+                        "y": 47,
+                        "width": 15,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
                     }
                 },
                 {
@@ -9004,7 +9980,7 @@
                         "height": 41
                     },
                     "region_attributes": {
-                        "digit": "8"
+                        "digit": "2"
                     }
                 },
                 {
@@ -9035,7 +10011,7 @@
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "5"
                     }
                 }
             ],
@@ -9054,7 +10030,7 @@
                         "height": 37
                     },
                     "region_attributes": {
-                        "digit": "8"
+                        "digit": "2"
                     }
                 },
                 {
@@ -9198,11 +10174,23 @@
                         "name": "rect",
                         "x": 81,
                         "y": 49,
-                        "width": 50,
+                        "width": 25,
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 105,
+                        "y": 49,
+                        "width": 30,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "9"
                     }
                 }
             ],
@@ -9246,13 +10234,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 92,
-                        "y": 44,
-                        "width": 67,
-                        "height": 59
+                        "x": 97,
+                        "y": 46,
+                        "width": 29,
+                        "height": 45
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 124,
+                        "y": 49,
+                        "width": 31,
+                        "height": 44
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -9415,6 +10415,18 @@
                     },
                     "region_attributes": {
                         "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 122,
+                        "y": 40,
+                        "width": 30,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -9857,7 +10869,20 @@
         "auburn_492.jpg_bb5.jpg6212": {
             "filename": "auburn_492.jpg_bb5.jpg",
             "size": 6212,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 132,
+                        "y": 57,
+                        "width": 24,
+                        "height": 45
+                    },
+                    "region_attributes": {
+                        "digit": "4"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_493.jpg_bb0.jpg5937": {
@@ -9869,11 +10894,23 @@
                         "name": "rect",
                         "x": 128,
                         "y": 53,
-                        "width": 44,
+                        "width": 32,
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "5"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 155,
+                        "y": 52,
+                        "width": 18,
+                        "height": 48
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -9942,7 +10979,7 @@
                         "height": 66
                     },
                     "region_attributes": {
-                        "digit": "5"
+                        "digit": "6"
                     }
                 }
             ],
@@ -10042,62 +11079,31 @@
                         "height": 44
                     },
                     "region_attributes": {
-                        "digit": "1"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 135,
-                        "y": 49,
-                        "width": 46,
-                        "height": 47
-                    },
-                    "region_attributes": {
-                        "digit": "2"
-                    }
-                }
-            ],
-            "file_attributes": {}
-        },
-        "auburn_499.jpg_bb1.jpg5772": {
-            "filename": "auburn_499.jpg_bb1.jpg",
-            "size": 5772,
-            "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 97,
-                        "y": 126,
-                        "width": 15,
-                        "height": 25
-                    },
-                    "region_attributes": {
-                        "digit": "9"
-                    }
-                },
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 84,
-                        "y": 123,
-                        "width": 13,
-                        "height": 27
-                    },
-                    "region_attributes": {
-                        "digit": "8"
+                        "digit": "5"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
                         "x": 139,
-                        "y": 108,
-                        "width": 21,
-                        "height": 23
+                        "y": 54,
+                        "width": 18,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "1"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 157,
+                        "y": 53,
+                        "width": 20,
+                        "height": 40
+                    },
+                    "region_attributes": {
+                        "digit": "8"
                     }
                 }
             ],
@@ -10110,13 +11116,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 79,
+                        "x": 82,
                         "y": 37,
-                        "width": 74,
+                        "width": 40,
                         "height": 55
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 113,
+                        "y": 36,
+                        "width": 44,
+                        "height": 56
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -10131,11 +11149,23 @@
                         "name": "rect",
                         "x": 85,
                         "y": 41,
-                        "width": 69,
+                        "width": 35,
                         "height": 51
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 119,
+                        "y": 42,
+                        "width": 36,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -10293,11 +11323,23 @@
                         "name": "rect",
                         "x": 87,
                         "y": 57,
-                        "width": 55,
+                        "width": 26,
                         "height": 50
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 107,
+                        "y": 58,
+                        "width": 41,
+                        "height": 48
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -10310,13 +11352,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 99,
-                        "y": 52,
-                        "width": 54,
-                        "height": 52
+                        "x": 103,
+                        "y": 59,
+                        "width": 29,
+                        "height": 46
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 125,
+                        "y": 53,
+                        "width": 19,
+                        "height": 49
+                    },
+                    "region_attributes": {
+                        "digit": "3"
                     }
                 }
             ],
@@ -10399,6 +11453,18 @@
                     "region_attributes": {
                         "digit": "4"
                     }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 62,
+                        "y": 149,
+                        "width": 17,
+                        "height": 57
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
                 }
             ],
             "file_attributes": {}
@@ -10474,11 +11540,23 @@
                         "name": "rect",
                         "x": 116,
                         "y": 64,
-                        "width": 54,
+                        "width": 29,
+                        "height": 49
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 141,
+                        "y": 66,
+                        "width": 33,
                         "height": 47
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "6"
                     }
                 }
             ],
@@ -10574,11 +11652,23 @@
                         "name": "rect",
                         "x": 75,
                         "y": 40,
-                        "width": 59,
+                        "width": 33,
+                        "height": 53
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 103,
+                        "y": 43,
+                        "width": 33,
                         "height": 46
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "7"
                     }
                 }
             ],
@@ -10753,13 +11843,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 94,
+                        "x": 99,
                         "y": 57,
-                        "width": 59,
+                        "width": 26,
                         "height": 49
                     },
                     "region_attributes": {
-                        "digit": "9"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 124,
+                        "y": 62,
+                        "width": 34,
+                        "height": 47
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -10803,13 +11905,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 108,
+                        "x": 113,
                         "y": 67,
-                        "width": 61,
-                        "height": 44
+                        "width": 29,
+                        "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 139,
+                        "y": 69,
+                        "width": 30,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -10853,13 +11967,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 55,
-                        "y": 125,
-                        "width": 121,
-                        "height": 100
+                        "x": 61,
+                        "y": 136,
+                        "width": 62,
+                        "height": 78
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 120,
+                        "y": 133,
+                        "width": 62,
+                        "height": 80
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -11108,13 +12234,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 93,
+                        "x": 105,
                         "y": 53,
-                        "width": 34,
+                        "width": 22,
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 94,
+                        "y": 50,
+                        "width": 14,
+                        "height": 46
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -11158,13 +12296,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 82,
+                        "x": 113,
                         "y": 35,
-                        "width": 66,
-                        "height": 57
+                        "width": 28,
+                        "height": 49
                     },
                     "region_attributes": {
                         "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 83,
+                        "y": 43,
+                        "width": 34,
+                        "height": 50
+                    },
+                    "region_attributes": {
+                        "digit": "5"
                     }
                 }
             ],
@@ -11252,9 +12402,9 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 104,
-                        "y": 47,
-                        "width": 20,
-                        "height": 39
+                        "y": 48,
+                        "width": 28,
+                        "height": 38
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -11469,7 +12619,7 @@
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "2"
                     }
                 },
                 {
@@ -11481,7 +12631,7 @@
                         "height": 36
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "8"
                     }
                 }
             ],
@@ -11500,7 +12650,7 @@
                         "height": 47
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "8"
                     }
                 }
             ],
@@ -11515,8 +12665,20 @@
                         "name": "rect",
                         "x": 88,
                         "y": 58,
-                        "width": 57,
-                        "height": 46
+                        "width": 28,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 114,
+                        "y": 60,
+                        "width": 34,
+                        "height": 45
                     },
                     "region_attributes": {
                         "digit": "2"
@@ -11538,7 +12700,7 @@
                         "height": 68
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "8"
                     }
                 }
             ],
@@ -11548,18 +12710,6 @@
             "filename": "auburn_576.jpg_bb0.jpg",
             "size": 5361,
             "regions": [
-                {
-                    "shape_attributes": {
-                        "name": "rect",
-                        "x": 105,
-                        "y": 76,
-                        "width": 27,
-                        "height": 36
-                    },
-                    "region_attributes": {
-                        "digit": "6"
-                    }
-                },
                 {
                     "shape_attributes": {
                         "name": "rect",
@@ -11584,11 +12734,23 @@
                         "name": "rect",
                         "x": 100,
                         "y": 50,
-                        "width": 62,
+                        "width": 34,
                         "height": 47
                     },
                     "region_attributes": {
                         "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 131,
+                        "y": 49,
+                        "width": 32,
+                        "height": 51
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -11634,11 +12796,23 @@
                         "name": "rect",
                         "x": 86,
                         "y": 41,
-                        "width": 46,
+                        "width": 23,
                         "height": 36
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 108,
+                        "y": 43,
+                        "width": 22,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -11647,7 +12821,32 @@
         "auburn_586.jpg_bb2.jpg6531": {
             "filename": "auburn_586.jpg_bb2.jpg",
             "size": 6531,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 41,
+                        "width": 22,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 145,
+                        "y": 45,
+                        "width": 17,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_587.jpg_bb0.jpg5328": {
@@ -11672,7 +12871,32 @@
         "auburn_587.jpg_bb4.jpg5896": {
             "filename": "auburn_587.jpg_bb4.jpg",
             "size": 5896,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 99,
+                        "y": 0,
+                        "width": 36,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 1,
+                        "width": 27,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                }
+            ],
             "file_attributes": {}
         },
         "auburn_588.jpg_bb0.jpg5532": {
@@ -11688,7 +12912,7 @@
                         "height": 46
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "9"
                     }
                 }
             ],
@@ -11763,13 +12987,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 97,
-                        "y": 51,
-                        "width": 70,
-                        "height": 46
+                        "x": 107,
+                        "y": 58,
+                        "width": 27,
+                        "height": 37
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 133,
+                        "y": 58,
+                        "width": 24,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -11801,13 +13037,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 100,
-                        "y": 69,
-                        "width": 55,
-                        "height": 43
+                        "x": 104,
+                        "y": 74,
+                        "width": 25,
+                        "height": 39
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 129,
+                        "y": 72,
+                        "width": 26,
+                        "height": 41
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -11931,7 +13179,7 @@
                         "height": 63
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "4"
                     }
                 }
             ],
@@ -11946,11 +13194,11 @@
                         "name": "rect",
                         "x": 99,
                         "y": 105,
-                        "width": 56,
+                        "width": 30,
                         "height": 38
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "7"
                     }
                 },
                 {
@@ -11958,11 +13206,35 @@
                         "name": "rect",
                         "x": 74,
                         "y": 50,
-                        "width": 49,
+                        "width": 27,
                         "height": 40
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 97,
+                        "y": 51,
+                        "width": 31,
+                        "height": 43
+                    },
+                    "region_attributes": {
+                        "digit": "9"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 126,
+                        "y": 106,
+                        "width": 32,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "2"
                     }
                 }
             ],
@@ -11981,7 +13253,7 @@
                         "height": 70
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "4"
                     }
                 }
             ],
@@ -12025,13 +13297,13 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 116,
-                        "y": 53,
-                        "width": 47,
-                        "height": 57
+                        "x": 121,
+                        "y": 61,
+                        "width": 42,
+                        "height": 49
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "4"
                     }
                 }
             ],
@@ -12106,13 +13378,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 124,
-                        "y": 69,
-                        "width": 31,
-                        "height": 45
+                        "x": 133,
+                        "y": 79,
+                        "width": 22,
+                        "height": 35
                     },
                     "region_attributes": {
                         "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 123,
+                        "y": 75,
+                        "width": 13,
+                        "height": 39
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -12187,13 +13471,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 87,
-                        "y": 58,
-                        "width": 47,
-                        "height": 44
+                        "x": 89,
+                        "y": 62,
+                        "width": 26,
+                        "height": 37
                     },
                     "region_attributes": {
                         "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 110,
+                        "y": 66,
+                        "width": 24,
+                        "height": 35
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -12257,12 +13553,12 @@
                     "shape_attributes": {
                         "name": "rect",
                         "x": 97,
-                        "y": 44,
+                        "y": 51,
                         "width": 18,
-                        "height": 42
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "1"
+                        "digit": "7"
                     }
                 },
                 {
@@ -12312,7 +13608,7 @@
                         "height": 42
                     },
                     "region_attributes": {
-                        "digit": "0"
+                        "digit": "2"
                     }
                 }
             ],
@@ -12350,7 +13646,7 @@
                         "height": 46
                     },
                     "region_attributes": {
-                        "digit": "8"
+                        "digit": "9"
                     }
                 }
             ],
@@ -12401,13 +13697,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 106,
-                        "y": 32,
-                        "width": 50,
-                        "height": 49
+                        "x": 126,
+                        "y": 41,
+                        "width": 30,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "6"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 101,
+                        "y": 37,
+                        "width": 32,
+                        "height": 37
+                    },
+                    "region_attributes": {
+                        "digit": "7"
                     }
                 }
             ],
@@ -12426,16 +13734,16 @@
                         "height": 39
                     },
                     "region_attributes": {
-                        "digit": "2"
+                        "digit": "7"
                     }
                 },
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 149,
+                        "x": 138,
                         "y": 79,
-                        "width": 17,
-                        "height": 43
+                        "width": 28,
+                        "height": 42
                     },
                     "region_attributes": {
                         "digit": "7"
@@ -12454,7 +13762,7 @@
                         "x": 100,
                         "y": 69,
                         "width": 23,
-                        "height": 28
+                        "height": 31
                     },
                     "region_attributes": {
                         "digit": "8"
@@ -12637,13 +13945,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 73,
+                        "x": 79,
                         "y": 48,
-                        "width": 83,
+                        "width": 35,
                         "height": 64
                     },
                     "region_attributes": {
                         "digit": "2"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 115,
+                        "y": 47,
+                        "width": 31,
+                        "height": 59
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -12749,13 +14069,25 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 86,
-                        "y": 36,
-                        "width": 67,
-                        "height": 50
+                        "x": 94,
+                        "y": 43,
+                        "width": 43,
+                        "height": 40
                     },
                     "region_attributes": {
-                        "digit": "4"
+                        "digit": "8"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 117,
+                        "y": 34,
+                        "width": 33,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "digit": "6"
                     }
                 }
             ],
@@ -12770,8 +14102,8 @@
                         "name": "rect",
                         "x": 146,
                         "y": 38,
-                        "width": 22,
-                        "height": 23
+                        "width": 14,
+                        "height": 27
                     },
                     "region_attributes": {
                         "digit": "1"
@@ -12780,13 +14112,37 @@
                 {
                     "shape_attributes": {
                         "name": "rect",
-                        "x": 93,
-                        "y": 108,
-                        "width": 43,
-                        "height": 28
+                        "x": 100,
+                        "y": 106,
+                        "width": 18,
+                        "height": 35
                     },
                     "region_attributes": {
-                        "digit": "3"
+                        "digit": "4"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 116,
+                        "y": 105,
+                        "width": 18,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "digit": "7"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 159,
+                        "y": 38,
+                        "width": 11,
+                        "height": 26
+                    },
+                    "region_attributes": {
+                        "digit": "4"
                     }
                 }
             ],
@@ -65428,6 +66784,12 @@
                     }
                 }
             ],
+            "file_attributes": {}
+        },
+        "auburn_68.jpg_bb1.jpg6445": {
+            "filename": "auburn_68.jpg_bb1.jpg",
+            "size": 6445,
+            "regions": [],
             "file_attributes": {}
         }
     },

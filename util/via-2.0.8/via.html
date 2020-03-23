@@ -4762,10 +4762,10 @@ function _via_reg_canvas_keydown_handler(e) {
   }
 
   if (_via_current_image_loaded) {
-    if ( e.key === 'z' ) {
-      project_file_remove_with_confirm();
-      return;
-    }
+    // if ( e.key === 'z' ) {
+    //   project_file_remove_with_confirm();
+    //   return;
+    // }
 
     if ( e.key === 'Enter' ) {
         if ( _via_current_shape === VIA_REGION_SHAPE.POLYLINE ||
@@ -8074,8 +8074,8 @@ function project_file_remove_with_confirm() {
                 'region_count':{ type:'text', name:'Number of regions', disabled:true, value:region_count, size:8}
               };
 
-  // invoke_with_user_inputs(project_file_remove_confirmed, input, config);
-  project_file_remove_confirmed(input);
+  invoke_with_user_inputs(project_file_remove_confirmed, input, config);
+  // project_file_remove_confirmed(input);
 }
 
 function project_file_remove_confirmed(input) {
