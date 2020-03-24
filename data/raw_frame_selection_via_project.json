@@ -26,7 +26,7 @@
             "default_filepath": "/Users/alexramey/Desktop/Deep Learning/Football_Player_Recognition/data/raw/"
         },
         "project": {
-            "name": "football_player_recognition"
+            "name": "raw_frame_selection_via_project"
         }
     },
     "_via_img_metadata": {
