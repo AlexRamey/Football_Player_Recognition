@@ -29,6 +29,6 @@ ax.set_xticks(xValues)
 ax.set_yticks(range(0, 701, 50))
 ax.legend()
 
-plt.savefig(os.path.join('data','dataVisualization.png'))
+plt.savefig(os.path.join('data', 'readme_assets', 'dataVisualization.png'))
 
 plt.show()

@@ -13,8 +13,6 @@ This project will identify the jersey numbers of American football players in br
 
 1. Label the digits with [VGG Image Annotator (VIA) tool](http://www.robots.ox.ac.uk/~vgg/software/via/).
 
-1. Trim the dataset to create an equal number of home and away colored digits.
-
 1. Divide the dataset using a 70/30 split into `football_player_train` and `football_player_test`.
 
 ## Training
