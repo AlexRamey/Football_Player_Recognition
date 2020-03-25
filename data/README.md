@@ -51,3 +51,5 @@
 1. The workers finished in 12 minutes, but the results were inconsistent. Using an [import script](mTurk/import_mTurk_results.py), the worker submissions were loaded into the existing VIA project (`jersey_number_labelling_via_project.json`) and used as a starting point for a manual labelling process using the VIA tool.
 
 1. Worker feedback was provided using a [script](mTurk/createWorkerFeedback.py) to score the original submissions against the final results. The script looked for two common pitfalls, but it errored on the side of generosity. Ultimately, 1871 submissions were approved and 551 were rejected; however, the vast majority of the submissions required some manual refinement.
+
+1. The final dataset was exported from VIA as `jersey_number_coco.json`. The referenced images reside under `person_proposals/`.
