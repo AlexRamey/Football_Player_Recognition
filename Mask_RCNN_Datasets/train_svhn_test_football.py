@@ -4,14 +4,13 @@ import json
 from mrcnn.config import Config
 from mrcnn.model import MaskRCNN
 from mrcnn.utils import Dataset
+from mrcnn.utils import download_trained_weights
 
 from numpy import zeros
 from numpy import asarray
 
-from matplotlib import pyplot
-
 class SVHNDataset(Dataset):
-    def load_dataset(self):
+    def load_dataset(self, is_train=True):
         for i in range(10):
             self.add_class("svhn", i if i != 0 else 10, str(i))
         images_dir = 'svhn/train/'
@@ -19,6 +18,10 @@ class SVHNDataset(Dataset):
             if filename[-4:] != ".png":
                 continue
             image_id = filename[:-4]
+            if is_train and int(image_id) > 26722:
+                continue
+            if not is_train and int(image_id) <= 26722:
+                continue
             img_path = images_dir + filename
             self.add_image('svhn', image_id=int(image_id), path=img_path)
         with open('svhn/svhn_train_annot.json') as f:
@@ -110,21 +113,31 @@ class FootballDataset(Dataset):
         return info['path']
 
 # train set
-train_set = FootballDataset()
-train_set.load_dataset()
+train_set = SVHNDataset()
+train_set.load_dataset(is_train=True)
 train_set.prepare()
-print('Train: %d' % len(train_set.image_ids))
 
-# load an image
-image_id = 45
-train_set.image_reference(image_id)
-image = train_set.load_image(image_id)
-print(image.shape)
-# # load image mask
-mask, class_ids = train_set.load_mask(image_id)
-print(mask.shape)
-# # plot image
-pyplot.imshow(image)
-# # plot mask
-pyplot.imshow(mask[:, :, 1], cmap='gray', alpha=0.5)
-pyplot.show()
+# validation set
+validation_set = SVHNDataset()
+validation_set.load_dataset(is_train=False)
+validation_set.prepare()
+
+class FootballConfig(Config):
+    NAME = 'football_cfg'
+    NUM_CLASSES = 1 + 10 # background + digits
+    IMAGE_MIN_DIM = 256
+config = FootballConfig()
+config.display()
+
+model = MaskRCNN(mode='training', model_dir='./', config=config)
+
+# Local path to trained weights file
+COCO_MODEL_PATH = "./mask_rcnn_coco.h5"
+# Download COCO trained weights from Releases if needed
+if not os.path.exists(COCO_MODEL_PATH):
+    download_trained_weights(COCO_MODEL_PATH)
+
+model.load_weights(COCO_MODEL_PATH, by_name=True, exclude=["mrcnn_class_logits", "mrcnn_bbox_fc",  "mrcnn_bbox", "mrcnn_mask"])
+
+# train weights (output layers or 'heads')
+model.train(train_set, validation_set, learning_rate=config.LEARNING_RATE, epochs=5, layers='heads')
