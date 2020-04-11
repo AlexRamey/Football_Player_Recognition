@@ -32,8 +32,14 @@ validation_set.prepare()
 
 class FootballConfig(Config):
     NAME = 'football_cfg'
+    GPU_COUNT = 1
+    IMAGES_PER_GPU = 4
     NUM_CLASSES = 1 + 10 # background + digits
     IMAGE_MIN_DIM = 256
+    STEPS_PER_EPOCH = 6681 if sys.argv[1] == 'svhn' else 384
+    VALIDATION_STEPS = 1670 if sys.argv[1] == 'svhn' else 96
+    RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
+    #TRAIN_ROIS_PER_IMAGE = 100
 config = FootballConfig()
 config.display()
 
