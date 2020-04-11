@@ -1,5 +1,6 @@
 from os import listdir
 import json
+import os
 
 from mrcnn.config import Config
 from mrcnn.model import MaskRCNN
@@ -61,14 +62,14 @@ class SVHNDataset(Dataset):
         return info['path']
 
 class FootballDataset(Dataset):
-    def load_dataset(self, is_train=True):
+    def load_dataset(self, subset="train"): # subset = train|val|test
         for i in range(10):
             self.add_class('football', i if i != 0 else 10, str(i))
         images_dir = 'data/person_proposals/'
 
         with open('data/football_train_test_split.json') as f:
             football_train_test_split = json.load(f)
-        images = football_train_test_split["train" if is_train else "test"]
+        images = football_train_test_split[subset]
         
         for filename in images:
             image_id = filename[:-4]
