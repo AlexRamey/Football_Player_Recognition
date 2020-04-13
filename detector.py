@@ -30,7 +30,7 @@ class DigitConfig(Config):
     RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
 
 class Detector:
-    def __init__(self, stage1_confidence_threshold=.99, stage2_confidence_threshold=.90, verbose=1):
+    def __init__(self, stage1_confidence_threshold=0.50, stage2_confidence_threshold=0.75, verbose=1):
         self.stage1_confidence_threshold = stage1_confidence_threshold
         self.stage2_confidence_threshold = stage2_confidence_threshold
         self.verbose = verbose
@@ -55,7 +55,7 @@ class Detector:
         for i, person in enumerate(people):
             result = self.stage2.detect([person], verbose=self.verbose)[0]
             if any(score >= self.stage2_confidence_threshold for score in result['scores']):
-                result['class_names'] = list(map(lambda id: self.stage2_class_names[id], result['class_ids']))  
+                result['class_names'] = list(map(lambda id: self.stage2_class_names[id], result['class_ids']))
                 result = self.transformStage2ResultsToOriginalCoordinateFrame(result, transforms[i])
                 stage2_results['rois'] += result['rois']
                 stage2_results['class_names'] += result['class_names']
