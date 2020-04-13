@@ -58,9 +58,29 @@ def detector(lock):
             labelledFrame = np.array(frame)
 
 def annotateFrame(frame, results):
-    draw = ImageDraw.Draw(frame)
     colors = list(ImageColor.colormap.values())
-    draw.line([(0, 0), (0, 100), (100, 100), (100, 0), (0, 0)], width=4, fill=colors[0])
+    font = ImageFont.load_default()
+    draw = ImageDraw.Draw(frame)
+
+    boxes = results['rois']
+    for i, box in enumerate(boxes):
+        top = box[0]
+        bottom = box[2]
+        left = box[1]
+        right = box[3]
+        class_name = results['class_names'][i]
+        label = "{}: {}%".format(class_name, int(results['scores'][i] * 100))
+        color = colors[int(class_name) % len(colors)]
+        segments = [(left, top), (left, bottom), (right, bottom), (right, top), (left, top)]
+        draw.line(segments, width=4, fill=color)
+        label_width, label_height = font.getsize(label)
+        margin = np.ceil(0.05 * label_height)
+        if top > (label_height + 2 * margin): # 0.05% margin
+            label_bottom = top
+        else:
+            label_bottom = bottom + label_height + 2 * margin
+        draw.rectangle([(left, label_bottom - label_height - 2 * margin), (left + label_width, label_bottom)], fill=color)
+        draw.text((left + margin, label_bottom - label_height - margin), label, fill="black", font=font)
 
 def main():
     if ((len(sys.argv) != 2) or (not os.path.exists(sys.argv[1]))):
