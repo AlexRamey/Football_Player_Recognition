@@ -10,7 +10,9 @@
 from mrcnn.config import Config
 from mrcnn.model import MaskRCNN
 from mrcnn.utils import download_trained_weights
+import numpy as np
 import os
+from PIL import Image
 
 class CocoConfig(Config):
     NAME = "coco"
