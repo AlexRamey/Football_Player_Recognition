@@ -7,6 +7,7 @@
 # trained mask rcnn that specializes in jersey number detection.
 # It returns the set of bounding boxes, class names, and scores.
 
+import json
 from mrcnn.config import Config
 from mrcnn.model import MaskRCNN
 from mrcnn.utils import download_trained_weights
@@ -30,9 +31,11 @@ class DigitConfig(Config):
     RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
 
 class Detector:
-    def __init__(self, stage1_confidence_threshold=0.50, stage2_confidence_threshold=0.75, verbose=1):
+    def __init__(self, stage1_confidence_threshold=0.90, stage2_confidence_threshold=0.75, debug=False, verbose=False):
         self.stage1_confidence_threshold = stage1_confidence_threshold
         self.stage2_confidence_threshold = stage2_confidence_threshold
+        self.debug = debug
+        self.debugCounter = 0
         self.verbose = verbose
 
         self.stage1 = MaskRCNN(mode='inference', model_dir='.', config=CocoConfig())
@@ -49,7 +52,18 @@ class Detector:
     
     def detect(self, frame):
         stage1_results = self.stage1.detect([frame], verbose=self.verbose)
+
+        if self.debug:
+            self.debugCounter += 1
+            Image.fromarray(frame).save(os.path.join('debug', 'frame_' + str(self.debugCounter) + '.jpg'))
+
         people, transforms = self.getPeopleFromStage1Results(frame, stage1_results[0])
+
+        if self.debug:
+            count = 1
+            for person in people:
+                Image.fromarray(person).save(os.path.join('debug', 'frame_' + str(self.debugCounter) + '_person_' + str(count) + '.jpg'))
+                count += 1
 
         stage2_results = {'rois': [], 'class_names': [], 'scores': []}
         for i, person in enumerate(people):
@@ -60,6 +74,15 @@ class Detector:
                 stage2_results['rois'] += result['rois']
                 stage2_results['class_names'] += result['class_names']
                 stage2_results['scores'] += result['scores']
+
+        if self.debug:
+            stage2_results_copy = {'rois': [], 'class_names': [], 'scores': []}
+            with open(os.path.join('debug', 'frame_' + str(self.debugCounter) + '_digits.json'), 'w') as outfile:
+                for roi in stage2_results['rois']:
+                    stage2_results_copy['rois'].append(list(map(lambda x: float(x), roi)))
+                stage2_results_copy['class_names'] = stage2_results['class_names']
+                stage2_results_copy['scores'] = list(map(lambda x: float(x), stage2_results['scores']))
+                json.dump(stage2_results_copy, outfile)
 
         return stage2_results
 

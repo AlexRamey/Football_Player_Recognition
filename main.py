@@ -24,10 +24,12 @@ def playVideo(video, lock):
     fps = cap.get(cv2.CAP_PROP_FPS)
     while(cap.isOpened()):
         ret, frame = cap.read()
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         with lock:
             if (plainFrame is None) and (labelledFrame is None):
                 plainFrame = frame.copy() # start-up condition
             elif (plainFrame is None) and (labelledFrame is not None):
+                labelledFrame = cv2.cvtColor(labelledFrame, cv2.COLOR_RGB2BGR)
                 cv2.imshow('frame', labelledFrame)
                 plainFrame = frame.copy()
                 labelledFrame = None
@@ -37,9 +39,10 @@ def playVideo(video, lock):
     cap.release()
     cv2.destroyAllWindows()
 
-def detector(lock):
+def detector(lock, debug=False):
     global plainFrame, labelledFrame
-    d = Detector()
+    d = Detector(debug=debug)
+    debugCount = 0
     while(True):
         time.sleep(.01) # ~100 Hz
         frame = None
@@ -53,6 +56,9 @@ def detector(lock):
         results = d.detect(frame)
         frame = Image.fromarray(frame)
         annotateFrame(frame, results)
+        if debug:
+            debugCount += 1
+            frame.save(os.path.join('debug', 'frame_labelled_' + str(debugCount) + '.jpg'))
         with lock:
             plainFrame = None
             labelledFrame = np.array(frame)
@@ -87,8 +93,9 @@ def main():
         sys.exit("Please provide the input video file as a cmd line argument")
 
     lock = threading.Lock()
+    debug = True
 
-    threading.Thread(target=detector, args=(lock,), daemon=True).start()
+    threading.Thread(target=detector, args=(lock,debug,), daemon=True).start()
 
     playVideo(sys.argv[1], lock)
 
