@@ -24,6 +24,8 @@ def playVideo(video, lock):
     fps = cap.get(cv2.CAP_PROP_FPS)
     while(cap.isOpened()):
         ret, frame = cap.read()
+        if frame is None:
+            continue
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         with lock:
             if (plainFrame is None) and (labelledFrame is None):

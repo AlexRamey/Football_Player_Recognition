@@ -31,7 +31,7 @@ class DigitConfig(Config):
     RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
 
 class Detector:
-    def __init__(self, stage1_confidence_threshold=0.90, stage2_confidence_threshold=0.75, debug=False, verbose=False):
+    def __init__(self, stage1_confidence_threshold=0.95, stage2_confidence_threshold=0.85, debug=False, verbose=False):
         self.stage1_confidence_threshold = stage1_confidence_threshold
         self.stage2_confidence_threshold = stage2_confidence_threshold
         self.debug = debug
