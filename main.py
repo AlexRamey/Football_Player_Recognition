@@ -58,7 +58,7 @@ def detector(lock, debug=False):
         annotateFrame(frame, results)
         if debug:
             debugCount += 1
-            frame.save(os.path.join('debug', 'frame_labelled_' + str(debugCount) + '.jpg'))
+            frame.save(os.path.join('debug', 'frame_' + str(debugCount) + '_labelled.jpg'))
         with lock:
             plainFrame = None
             labelledFrame = np.array(frame)
