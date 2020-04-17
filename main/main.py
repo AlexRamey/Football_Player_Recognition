@@ -95,7 +95,7 @@ def main():
         sys.exit("Please provide the input video file as a cmd line argument")
 
     lock = threading.Lock()
-    debug = True
+    debug = False
 
     threading.Thread(target=detector, args=(lock,debug,), daemon=True).start()
 
